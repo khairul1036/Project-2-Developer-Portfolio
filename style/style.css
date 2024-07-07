@@ -128,12 +128,15 @@ nav .text-icon{
     max-width: 1240px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* about section style  */
 .about{
     border-radius: 10px;
     padding: 100px 150px;
-    margin-top: 130px;
 }
 .inner-about-box{
     background-color: white;
@@ -148,7 +151,8 @@ nav .text-icon{
 }
 .description{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    padding: 0 100px;
 }
 .items{
     display: flex;
@@ -157,4 +161,21 @@ nav .text-icon{
 .items .item p{
     text-align: center;
     font-size: 20px;
+}
+.card-items{
+    display: flex;
+    justify-content: space-around;
+}
+.card-item{
+    width: 265px;
+    padding: 50px;
+    margin: 0 8px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.card-items .card-item img{
+    padding-bottom: 30px;
+}
+.card-items .card-item h4{
+    padding-bottom: 20px;
 }

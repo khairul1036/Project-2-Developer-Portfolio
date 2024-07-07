@@ -211,3 +211,35 @@ main section{
     font-size: 16px;
     margin-bottom: 30px;
 }
+
+/* footer section style  */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer h3{
+    font-weight: bold;
+    font-size: 32px;
+}
+.footer-column p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer-column a{
+    margin-right: 10px;
+}
+footer input[type="text"],  footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    border: none;
+}

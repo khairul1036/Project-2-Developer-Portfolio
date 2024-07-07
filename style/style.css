@@ -25,6 +25,10 @@
 .color-dark-3{
     color: #757575;
 }
+.btn-container{
+    text-align: center;
+    margin-top: 50px;
+}
 .btn-primary{
     font-size: 20px;
     color: white;
@@ -178,4 +182,32 @@ main section{
 }
 .card-items .card-item h4{
     padding-bottom: 20px;
+}
+
+/* resume section style  */
+.resume-content-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 113px;
+}
+.resume-title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.education-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.education-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.education-description{
+    font-size: 16px;
+    margin-bottom: 30px;
 }

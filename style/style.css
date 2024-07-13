@@ -270,14 +270,14 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
         font-size: 30px;
     }
     .banner-title{
-        font-size: 50px;
+        font-size: 45px;
     }
     .banner-content {
-        width: 365px;
+        width: 330px;
         margin-top: 30px;
     }
-    .btn-primary, .btn-secondary{
-        font-size: 16px;
+    .btn-primary, .btn-secondary, .btn-primary:hover, .btn-secondary:hover, .education-subtitle{
+        font-size: 15px;
     }
     .button{
         display: flex;
@@ -305,5 +305,13 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     .card-item{
         padding: 25px;
         margin-top: 20px;
+    }
+    .resume-content-box{
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .education-title{
+        font-size: 22px;
     }
 }
